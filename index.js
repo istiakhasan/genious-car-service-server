@@ -60,7 +60,7 @@ const run = async () => {
          res.send({accessToken})
 
      })
-   app.get('/',async(req,res)=>{
+   app.get('/',(req,res)=>{
        res.send("Running Genius Server")
    })
 
